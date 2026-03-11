@@ -7,6 +7,11 @@ const Header = ({children}) => {
         <div className='bg-[#00000074]'>
       {children}
         </div>
+
+const Header = ({ children }) => {
+  return (
+    <div className='bg-[lightgray]'>
+      {children}
     </div>
   )
 }
